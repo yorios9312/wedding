@@ -266,16 +266,18 @@ section .header:before {
   border-width: 0 0 2px 0;
   border-style: solid;
   -webkit-border-image:
-    -webkit-gradient(linear, 100% 0, 0 0, from(#728AB6), to(#DCA497)) 0 0 100%;
+    -webkit-gradient(linear, 100% 0, 0 0, from(#33384c), to(#bf9151)) 0 0 100%;
   -webkit-border-image:
-    -webkit-linear-gradient(right, #728AB6, #DCA497) 0 0 100%;
+    -webkit-linear-gradient(right, #33384c, #bf9151) 0 0 100%;
   -moz-border-image:
-    -moz-linear-gradient(right, #728AB6, #DCA497) 0 0 100%;
+    -moz-linear-gradient(right, #33384c, #bf9151) 0 0 100%;
   -o-border-image:
-    -o-linear-gradient(right, #728AB6, #DCA497) 0 0 100%;
+    -o-linear-gradient(right, #33384c, #bf9151) 0 0 100%;
   border-image:
-    linear-gradient(to right, #728AB6, #DCA497) 0 0 100%;
+    linear-gradient(to right, #33384c, #bf9151) 0 0 100%;
 }
+
+/*#DCA497*/
 
 .content h4 {
   font-family: "ff-spinoza-web-pro";
