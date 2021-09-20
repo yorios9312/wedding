@@ -10,7 +10,6 @@
   "devDependencies": {},
   "scripts": {
     "start": "async-node src/index.js",
-    "postinstall": "node -e \"fs=require('fs');bin=require('./package').bin;ln=(name,cb)=>fs.symlink('../../'+bin[name],'node_modules/.bin/'+name,cb);Object.keys(bin).forEach(name=>ln(name,err=>err&&fs.unlink('node_modules/.bin/'+name,()=>ln(name))))\""
   },
   "repository": {
     "type": "git",
