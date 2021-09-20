@@ -1,29 +1,27 @@
 {
-  "name": "manuelajulia",
+  "name": "wedding",
   "version": "1.0.0",
-  "homepage": "http://manuelajulia.com/",
-  "contributors": [
-    "Lee Byron <lee@leebyron.com> (http://leebyron.com/)",
-    "Ash Huang <ash@ashsmash.com> (http://ashsmash.com/)",
-    "Manuela Rios <yorios9312@gmail.com (https://manuelarios.com)"
-  ],
-  "license": "MIT",
-  "private": true,
-  "scripts": {
-    "start": "async-node src/index.js",
-    "postinstall": "node -e \"fs=require('fs');bin=require('./package').bin;ln=(name,cb)=>fs.symlink('../../'+bin[name],'node_modules/.bin/'+name,cb);Object.keys(bin).forEach(name=>ln(name,err=>err&&fs.unlink('node_modules/.bin/'+name,()=>ln(name))))\""
-  },
-  "engines": {
-    "node": "6.3.1"
-  },
+  "description": "Manuela and Julia's wedding site",
+  "main": "index.js",
   "dependencies": {
-    "async-to-gen": "1.3.0",
-    "body-parser": "1.15.2",
-    "compression": "1.6.2",
-    "ejs": "2.5.5",
-    "express": "4.14.0",
-    "interactive-script": "1.0.1",
-    "pg": "6.1.2",
-    "postmark": "1.3.1"
-  }
+    "ejs": "^2.5.5",
+    "express": "^4.14.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yorios9312/wedding.git"
+  },
+  "keywords": [
+    "wedding"
+  ],
+  "author": "manuela rios",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yorios9312/wedding/issues"
+  },
+  "homepage": "https://github.com/yorios9312/wedding#readme"
 }
