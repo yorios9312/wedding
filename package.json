@@ -1,7 +1,7 @@
 {
-  "name": "mj.wedding",
+  "name": "manuelajulia",
   "version": "1.0.0",
-  "homepage": "http://tbd/",
+  "homepage": "http://manuelajulia.com/",
   "contributors": [
     "Lee Byron <lee@leebyron.com> (http://leebyron.com/)",
     "Ash Huang <ash@ashsmash.com> (http://ashsmash.com/)",
@@ -13,13 +13,13 @@
     "start": "async-node src/index.js",
     "postinstall": "node -e \"fs=require('fs');bin=require('./package').bin;ln=(name,cb)=>fs.symlink('../../'+bin[name],'node_modules/.bin/'+name,cb);Object.keys(bin).forEach(name=>ln(name,err=>err&&fs.unlink('node_modules/.bin/'+name,()=>ln(name))))\""
   },
-  "bin": {
-    "email-blast": "bin/email-blast.js",
-    "get-addresses": "bin/get-addresses.js",
-    "get-rsvps": "bin/get-rsvps.js",
-    "reminder-blast": "bin/reminder-blast.js",
-    "populate-db": "bin/populate-db.js"
-  },
+  // "bin": {
+  //   "email-blast": "bin/email-blast.js",
+  //   "get-addresses": "bin/get-addresses.js",
+  //   "get-rsvps": "bin/get-rsvps.js",
+  //   "reminder-blast": "bin/reminder-blast.js",
+  //   "populate-db": "bin/populate-db.js"
+  // },
   "engines": {
     "node": "6.3.1"
   },
