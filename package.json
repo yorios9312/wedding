@@ -9,7 +9,7 @@
   },
   "devDependencies": {},
   "scripts": {
-    "start": "async-node src/index.js",
+    "start": "async-node src/index.js"
   },
   "repository": {
     "type": "git",
