@@ -13,13 +13,6 @@
     "start": "async-node src/index.js",
     "postinstall": "node -e \"fs=require('fs');bin=require('./package').bin;ln=(name,cb)=>fs.symlink('../../'+bin[name],'node_modules/.bin/'+name,cb);Object.keys(bin).forEach(name=>ln(name,err=>err&&fs.unlink('node_modules/.bin/'+name,()=>ln(name))))\""
   },
-  // "bin": {
-  //   "email-blast": "bin/email-blast.js",
-  //   "get-addresses": "bin/get-addresses.js",
-  //   "get-rsvps": "bin/get-rsvps.js",
-  //   "reminder-blast": "bin/reminder-blast.js",
-  //   "populate-db": "bin/populate-db.js"
-  // },
   "engines": {
     "node": "6.3.1"
   },
