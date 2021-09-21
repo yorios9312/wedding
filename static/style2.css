@@ -99,7 +99,7 @@ footer .end-circle {
   100% {-webkit-mask-position:left}
 }
 
-.shimmer {
+.main .shimmer {
   display: inline-block;
   color:white;
   
