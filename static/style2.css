@@ -99,16 +99,7 @@ footer .end-circle {
   100% {-webkit-mask-position:left}
 }
 
-.main .shimmer {
-  align-items: center;
-  bottom: 0;
-  display: flex;
-  justify-content: center;
-  left: 0;
-  position: absolute;
-  right: 0;
-  top: 0;
-
+.shimmer {
   display: inline-block;
   color:white;
   
@@ -138,6 +129,7 @@ footer .end-circle {
         background-position: 12.5rem top; /*200px*/
     }
 }
+ 
 
 nav {
   width: 100%;
