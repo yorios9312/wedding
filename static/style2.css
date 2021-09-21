@@ -86,6 +86,17 @@ footer .end-circle {
   width: 160px;
   fill: url(#warmombre);
   margin: 1em auto;
+  color: gold;
+  display:inline-block;
+  -webkit-mask:linear-gradient(-60deg,#000 30%,#0005,#000 70%) right/300% 100%;
+  background-repeat: no-repeat;
+  animation: shimmer 2.5s infinite;
+  font-size: 50px;
+  max-width:200px;
+}
+
+@keyframes end-circle {
+  100% {-webkit-mask-position:left}
 }
 
 nav {
