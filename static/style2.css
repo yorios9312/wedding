@@ -206,7 +206,8 @@ section .header:before {
   left: 0;
   right: 0;
   bottom: 0;
-  background-image: linear-gradient( 135deg, rgba(114,138,182,.5), rgba(220,164,151,.65) );
+  /*background-image: linear-gradient( 135deg, rgba(114,138,182,.5), rgba(220,164,151,.65) );*/
+  background-image: linear-gradient( 135deg, rgb(33 33 33 / 68%), rgb(152 141 62 / 50%) );
 }
 
 @media (min-width: 961px) {
