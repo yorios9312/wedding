@@ -95,10 +95,6 @@ footer .end-circle {
   max-width:200px;
 }
 
-@keyframes .end-circle {
-  100% {-webkit-mask-position:left}
-}
-
 .shimmer {
   display: inline-block;
   color:white;
