@@ -537,7 +537,7 @@ section .header:before {
   }
 
   #lodging > .content {
-    padding-top: 210px;
+ /*   padding-top: 210px;*/
   }
 
   #gifts > .content {
